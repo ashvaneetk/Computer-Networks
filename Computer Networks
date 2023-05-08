@@ -1,0 +1,35 @@
+Some Important Terms
+
+-> Network: A network refers to a collection of interconnected 	nodes or entities that are capable of communication and 	interaction with each other.
+
+        ~LAN: Local Area Network
+				 A LAN is a network that spans a small geographical area, 				 such as a home, office building, or campus. It enables 				 connected devices to share resources like printers, files, 				 and internet access.
+
+        ~WAN: Wide Area Network
+				 A WAN covers a larger geographical area, often 				 connecting multiple LANs together. The internet is the most 				 well-known example of a wide area network.
+
+		~MAN: Metropolitan Area Network
+				 A MAN covers a city or metropolitan area, providing 				 connectivity between various LANs.
+
+		~Wireless Network:
+				 This type of network allows devices to connect and 				 communicate wirelessly, without the need for physical 				 cables. Wi-Fi networks are a common example.
+
+		~ Client-Server Network:
+				 In this architecture, one or more central servers provide 				 services and resources to multiple client devices. Clients 				 request and utilize these resources over the network.
+        ~ Peer-to-Peer Network (P2P): 
+				 In a P2P network, devices connect directly with each other, 				 without relying on a central server. Each device can act as 				 both a client and a server, sharing resources and information 				 with other devices in the network.
+->Internet: The internet is a global network of interconnected computer networks that spans the entire globe.
+
+At its core, the internet is based on the TCP/IP protocol suite, which stands for Transmission Control Protocol/Internet Protocol. TCP/IP defines the rules and procedures for data transmission and routing on the internet. This protocol suite ensures that data packets are properly addressed, routed, and delivered across the network.
+
+The internet provides a wide range of services and resources, including:
+
+(i) World Wide Web (WWW): The web is a system of interconnected hypertext documents and resources accessed through web browsers. It allows users to browse websites, access information, and interact with web applications.
+
+(ii) Email: Electronic mail (email) enables users to send and receive messages electronically over the internet. It is one of the most widely used communication services on the internet.
+
+(iii) File Transfer: The internet allows users to transfer files between computers using various protocols like FTP (File Transfer Protocol) or cloud storage services.
+
+(iv) Instant Messaging and Voice/Video Calls: Internet-based messaging platforms and applications enable real-time text, voice, and video communication between individuals and groups.
+
+(v) Social Media: Social networking platforms provide a space for users to create profiles, connect with others, share content, and communicate.
