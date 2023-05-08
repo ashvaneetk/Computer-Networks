@@ -1,12 +1,12 @@
 Some Important Terms
 
--> Network: A network refers to a collection of interconnected 	nodes or entities that are capable of communication and 	interaction with each other.
+-> Network: A network refers to a collection of interconnected 	nodes or entities that are capable of communication and interaction with each other.
 
         ~LAN: Local Area Network
-				 A LAN is a network that spans a small geographical area, 				 such as a home, office building, or campus. It enables 				 connected devices to share resources like printers, files, 				 and internet access.
+				 A LAN is a network that spans a small geographical area, 			such as a home, office building, or campus. It enables 				 connected devices to share resources like printers, files, 		and internet access.
 
         ~WAN: Wide Area Network
-				 A WAN covers a larger geographical area, often 				 connecting multiple LANs together. The internet is the most 				 well-known example of a wide area network.
+				 A WAN covers a larger geographical area, often 				 connecting multiple LANs together. The internet is the most 		well-known example of a wide area network.
 
 		~MAN: Metropolitan Area Network
 				 A MAN covers a city or metropolitan area, providing 				 connectivity between various LANs.
@@ -15,9 +15,11 @@ Some Important Terms
 				 This type of network allows devices to connect and 				 communicate wirelessly, without the need for physical 				 cables. Wi-Fi networks are a common example.
 
 		~ Client-Server Network:
-				 In this architecture, one or more central servers provide 				 services and resources to multiple client devices. Clients 				 request and utilize these resources over the network.
+				 In this architecture, one or more central servers provide 			services and resources to multiple client devices. Clients 			request and utilize these resources over the network.
         ~ Peer-to-Peer Network (P2P): 
-				 In a P2P network, devices connect directly with each other, 				 without relying on a central server. Each device can act as 				 both a client and a server, sharing resources and information 				 with other devices in the network.
+				 In a P2P network, devices connect directly with each other, 		without relying on a central server. Each device can act as 		both a client and a server, sharing resources and information 		with other devices in the network.
+
+
 ->Internet: The internet is a global network of interconnected computer networks that spans the entire globe.
 
 At its core, the internet is based on the TCP/IP protocol suite, which stands for Transmission Control Protocol/Internet Protocol. TCP/IP defines the rules and procedures for data transmission and routing on the internet. This protocol suite ensures that data packets are properly addressed, routed, and delivered across the network.
@@ -33,3 +35,19 @@ The internet provides a wide range of services and resources, including:
 (iv) Instant Messaging and Voice/Video Calls: Internet-based messaging platforms and applications enable real-time text, voice, and video communication between individuals and groups.
 
 (v) Social Media: Social networking platforms provide a space for users to create profiles, connect with others, share content, and communicate.
+
+-> IP Address (INTERNET PROTOCOL) : It serves as a way to identify and locate devices on a network, allowing them to communicate with each other over the internet.
+
+IP addresses are part of the TCP/IP protocol suite, which is used to route data packets across the internet. These addresses are essential for data transmission and routing, enabling devices to send and receive information to and from specific destinations.
+
+There are two versions of IP addresses currently in use:
+
+1.	IPv4 (Internet Protocol version 4): This is the older and more widely used version of IP addresses. IPv4 addresses consist of a 32-bit numeric value expressed in four sets of decimal numbers separated by periods. Each set can range from 0 to 255, representing a possible combination of approximately 4.3 billion unique addresses. However, due to the rapid growth of internet-connected devices, the availability of IPv4 addresses is becoming limited.
+
+Example of an IPv4 address: 192.168.0.1
+
+2.  IPv6 (Internet Protocol version 6): IPv6 was developed to address the limitation of IPv4 and provide a larger address space. IPv6 addresses are 128-bit hexadecimal values separated by colons. This expansion allows for an enormous number of unique addresses, approximately 340 undecillion (3.4 x 10^38). IPv6 adoption is increasing to accommodate the growing number of devices connecting to the internet.
+
+Example of an IPv6 address: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+Both IPv4 and IPv6 addresses serve the same fundamental purpose of identifying and locating devices on a network. However, due to the depletion of available IPv4 addresses, the transition to IPv6 is taking place to ensure the continued growth and connectivity of devices on the internet.
