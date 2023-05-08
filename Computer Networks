@@ -51,3 +51,19 @@ Example of an IPv4 address: 192.168.0.1
 Example of an IPv6 address: 2001:0db8:85a3:0000:0000:8a2e:0370:7334
 
 Both IPv4 and IPv6 addresses serve the same fundamental purpose of identifying and locating devices on a network. However, due to the depletion of available IPv4 addresses, the transition to IPv6 is taking place to ensure the continued growth and connectivity of devices on the internet.
+
+-> Browser: A browser, short for web browser, provides an interface for users to view, retrieve, and interact with web pages, websites, and online content. 
+
+-> Browser Engine: A browser engine, also known as a rendering engine or layout engine, is the core software component of a web browser responsible for rendering web pages and displaying them to the user. It interprets HTML, CSS, and other web technologies, transforming them into a visual representation that users can interact with.
+
+Different web browsers utilize different rendering engines, and the choice of engine can impact the browser's performance, compatibility with web standards, and rendering capabilities. Here are some commonly used browser engines:
+
+(i) Blink: Blink is a rendering engine developed by Google and used in Google Chrome, Microsoft Edge (Chromium-based version), Opera, and other Chromium-based browsers. It was forked from the WebKit engine in 2013. Blink focuses on performance, security, and modern web standards.
+
+(ii) Gecko: Gecko is the rendering engine developed by Mozilla and used in the Mozilla Firefox browser. It is an open-source engine that emphasizes standards compliance, extensibility, and privacy.
+
+(iii) WebKit: WebKit is an open-source rendering engine primarily developed by Apple. It powers the Safari browser and was the original engine for Google Chrome before it transitioned to Blink. WebKit is known for its performance, rendering accuracy, and support for web standards.
+
+(iv) Trident: Trident is the proprietary rendering engine developed by Microsoft for the legacy versions of Internet Explorer. It has been largely phased out in favor of the Chromium-based Microsoft Edge browser.
+
+(v) EdgeHTML: EdgeHTML was the original rendering engine used in the Microsoft Edge browser before it transitioned to the Chromium-based version. It was developed by Microsoft and designed to provide better performance and web standards support compared to Trident.
