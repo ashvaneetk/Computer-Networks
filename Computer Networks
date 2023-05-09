@@ -3,16 +3,22 @@ Some Important Terms
 -> Network: A network refers to a collection of interconnected 	nodes or entities that are capable of communication and interaction with each other.
 
         ~LAN: Local Area Network
-				 A LAN is a network that spans a small geographical area, 			such as a home, office building, or campus. It enables 				 connected devices to share resources like printers, files, 		and internet access.
+				 A LAN is a network that spans a small geographical area,
+                 such as a home, office building, or campus. It enables 
+                 connected devices to share resources like printers, files,
+                 and internet access.
 
         ~WAN: Wide Area Network
-				 A WAN covers a larger geographical area, often 				 connecting multiple LANs together. The internet is the most 		well-known example of a wide area network.
+				 A WAN covers a larger geographical area, often 
+                 connecting multiple LANs together. The internet is the most well-known example of a wide area network.
 
 		~MAN: Metropolitan Area Network
-				 A MAN covers a city or metropolitan area, providing 				 connectivity between various LANs.
+				 A MAN covers a city or metropolitan area, providing 		connectivity between various LANs.
 
 		~Wireless Network:
-				 This type of network allows devices to connect and 				 communicate wirelessly, without the need for physical 				 cables. Wi-Fi networks are a common example.
+				 This type of network allows devices to connect and 
+                 communicate wirelessly, without the need for physical 
+                 cables. Wi-Fi networks are a common example.
 
 		~ Client-Server Network:
 				 In this architecture, one or more central servers provide 			services and resources to multiple client devices. Clients 			request and utilize these resources over the network.
@@ -67,3 +73,27 @@ Different web browsers utilize different rendering engines, and the choice of en
 (iv) Trident: Trident is the proprietary rendering engine developed by Microsoft for the legacy versions of Internet Explorer. It has been largely phased out in favor of the Chromium-based Microsoft Edge browser.
 
 (v) EdgeHTML: EdgeHTML was the original rendering engine used in the Microsoft Edge browser before it transitioned to the Chromium-based version. It was developed by Microsoft and designed to provide better performance and web standards support compared to Trident.
+
+(Vi) Presto: Presto was the proprietary rendering engine used in the Opera browser prior to its switch to the Chromium-based Blink engine. Presto was known for its speed, small memory footprint, and advanced features.
+
+——————————————————————————————————----------------------------------------------------
+
+Client Server Model
+
+The client-server model is a distributed computing architecture in which tasks and responsibilities are divided between two types of entities: clients and servers. This model is commonly used in networked systems, such as the internet, where clients request services or resources from servers.
+
+Its key components are:
+
+(i) Client: The client can be personal computer, smartphone, web browser, or any device or software that interacts with a server. Clients typically have user interfaces that allow users to interact with the applications or access resources provided by servers and initiate requests for services or resources.
+
+(ii) Server: The server is designed to handle and fulfill client requests, process data, and perform tasks based on the nature of the service it provides. Servers are often optimized for performance, reliability, and security and provides services or resources in response to client requests.
+
+(iii) Request-Response Model: In the client-server model, communication between clients and servers follows a request-response pattern. The client sends a request to the server, specifying the type of service or resource it needs. The server processes the request and generates a response, which is sent back to the client. The response typically contains the requested information or indicates the outcome of the request.
+
+(iv) Communication Protocols: Clients and servers use communication protocols to establish and maintain their interaction. The most common protocol used in the client-server model is the Hypertext Transfer Protocol (HTTP), which governs communication on the World Wide Web. Other protocols, such as File Transfer Protocol (FTP), Simple Mail Transfer Protocol (SMTP), and Transmission Control Protocol (TCP), are used for specific types of services.
+
+(v) Scalability and Centralization: The client-server model allows for scalable systems, where multiple clients can simultaneously connect to and interact with a server. Servers can handle multiple requests concurrently, serving multiple clients simultaneously. This centralization of resources and services on the server side enables efficient management, control, and distribution of resources.
+
+(Vi) Load Distribution: In some scenarios, multiple servers may be used to handle client requests, distributing the workload across the server network. This approach, known as load balancing, helps improve performance, fault tolerance, and scalability.
+
+(vii) Security: The client-server model allows for the implementation of security measures to protect the integrity and confidentiality of data transmitted between clients and servers. Techniques such as encryption, authentication, access control, and firewalls are commonly employed to ensure secure communication and protect against unauthorized access.
