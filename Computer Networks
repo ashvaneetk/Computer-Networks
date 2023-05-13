@@ -97,3 +97,31 @@ Its key components are:
 (Vi) Load Distribution: In some scenarios, multiple servers may be used to handle client requests, distributing the workload across the server network. This approach, known as load balancing, helps improve performance, fault tolerance, and scalability.
 
 (vii) Security: The client-server model allows for the implementation of security measures to protect the integrity and confidentiality of data transmitted between clients and servers. Techniques such as encryption, authentication, access control, and firewalls are commonly employed to ensure secure communication and protect against unauthorized access.
+
+--------------------------------------------------------------------------------------
+
+How search works:
+
+When a client (user) searches for a domain name, it typically follows the process of domain name resolution, which involves translating the domain name into the corresponding IP address. Here's an overview of how this process works:
+
+(i) Client Query: The client initiates a search by entering a domain name into a web browser or other application. For example, the client may enter "www.example.com".
+
+(ii) Local DNS Cache: The client's device checks its local DNS cache first. DNS (Domain Name System) is a distributed system that stores domain name records and their associated IP addresses. If the requested domain name and its corresponding IP address are already cached on the device, the resolution process can be bypassed, and the IP address is obtained directly.
+
+(iii) Recursive DNS Servers: If the domain name is not found in the local cache, the client's device contacts a recursive DNS server, which acts as an intermediary. The recursive DNS server does not have the requested domain information, but it is responsible for querying other DNS servers to find the IP address associated with the domain name.
+
+(iv) Root DNS Servers: The recursive DNS server first contacts one of the root DNS servers. These servers are responsible for directing DNS queries to the appropriate top-level domain (TLD) servers.
+
+(v) TLD DNS Servers: The root DNS server responds to the recursive DNS server with the IP address of the TLD DNS server responsible for the specific top-level domain of the requested domain name (e.g., ".com", ".org", ".net"). The recursive DNS server then queries the TLD DNS server.
+
+(Vi) Authoritative DNS Servers: The TLD DNS server responds to the recursive DNS server with the IP address of the authoritative DNS server responsible for the requested domain name. The authoritative DNS server is managed by the domain name owner or their DNS provider and holds the specific domain name records.
+
+(vii) DNS Record Retrieval: The recursive DNS server sends a query to the authoritative DNS server for the IP address associated with the requested domain name.
+
+(viii) Response: The authoritative DNS server responds to the recursive DNS server with the IP address of the requested domain name.
+
+(ix) IP Address Delivery: The recursive DNS server caches the IP address and delivers it back to the client's device.
+
+(x) Client Access: The client's device now has the IP address associated with the domain name. It can use this IP address to establish a connection with the server hosting the requested website or service.
+
+It's important to note that DNS caching occurs at various levels to improve efficiency and reduce the load on DNS servers. The IP address obtained from the DNS resolution process is used by the client to connect to the server associated with the requested domain name and access the desired website or service.
